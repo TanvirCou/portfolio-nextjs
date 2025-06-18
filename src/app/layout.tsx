@@ -9,7 +9,7 @@ import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Kazi Tanvir Ahmed - Frontend Developer',
+    default: 'Kazi Tanvir Ahmed | Frontend Developer',
     template: '%s | Kazi Tanvir Ahmed'
   },
   description: 'Portfolio of Kazi Tanvir Ahmed - Frontend Developer. Explore my projects, skills, and professional journey.',
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://kazi-tanvir-folio.vercel.app/',
-    title: 'Kazi Tanvir Ahmed - Frontend Developer',
+    title: 'Kazi Tanvir Ahmed | Frontend Developer',
     description: 'Portfolio of Kazi Tanvir Ahmed - Frontend Developer',
     siteName: 'Kazi Tanvir Ahmed Portfolio',
     images: [
       {
-        url: '',
+        url: 'https://kazi-tanvir-folio.vercel.app/assets/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'Kazi Tanvir Ahmed - Frontend Developer',
+        alt: 'Kazi Tanvir Ahmed | Frontend Developer',
       },
     ],
   },

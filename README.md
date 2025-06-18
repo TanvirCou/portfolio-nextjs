@@ -117,8 +117,6 @@ portfolio/
 3. Configure environment variables
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTanvirCou%2Fportfolio-nextjs)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
@@ -146,6 +144,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by [Kazi Tanvir Ahmed](https://github.com/TanvirCou)
+Made by [Kazi Tanvir Ahmed](https://github.com/TanvirCou)
 
 </div>
