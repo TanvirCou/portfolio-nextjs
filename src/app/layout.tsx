@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: '',
+    url: 'https://kazi-tanvir-folio.vercel.app/',
     title: 'Kazi Tanvir Ahmed - Frontend Developer',
     description: 'Portfolio of Kazi Tanvir Ahmed - Frontend Developer',
     siteName: 'Kazi Tanvir Ahmed Portfolio',
@@ -46,8 +46,6 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/favicon.svg',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon.ico',
   },
 };
 

@@ -30,10 +30,10 @@ export const personalInfo: PersonalInfo = {
     "✍️ Love building projects, documenting learning, and teaching through content.",
   ],
   socialLinks: [
-    { name: "Facebook", url: "https://www.facebook.com/ahmed.tnvr.999" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/tnvr-kazi/" },
-    { name: "Instagram", url: "https://www.instagram.com/tnvr_ahmed" },
     { name: "GitHub", url: "https://github.com/TanvirCou" },
+    { name: "Facebook", url: "https://www.facebook.com/ahmed.tnvr.999" },
+    { name: "Instagram", url: "https://www.instagram.com/tnvr_ahmed" },
   ],
   resumeUrl: "/assets/Kazi_Tanvir_Ahmed.pdf",
   profileImage: "/assets/profile.jpeg",

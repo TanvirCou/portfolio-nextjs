@@ -25,10 +25,10 @@ export default function Footer() {
   };
   
   const socialLinks = [
-    { name: 'Facebook', icon: <FaFacebook size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'Facebook')?.url || '#' },
     { name: 'LinkedIn', icon: <FaLinkedin size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'LinkedIn')?.url || '#' },
-    { name: 'Instagram', icon: <FaInstagram size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'Instagram')?.url || '#' },
     { name: 'GitHub', icon: <FaGithub size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'GitHub')?.url || '#' },
+    { name: 'Facebook', icon: <FaFacebook size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'Facebook')?.url || '#' },
+    { name: 'Instagram', icon: <FaInstagram size={20} />, url: personalInfo.socialLinks.find(link => link.name === 'Instagram')?.url || '#' },
   ];
 
   const containerVariants = {
@@ -138,7 +138,6 @@ export default function Footer() {
               {[
                 { name: 'Home', path: '/' },
                 { name: 'About', path: '/about' },
-                { name: 'Projects', path: '/projects' },
                 { name: 'Skills', path: '/skills' }
               ].map((link, index) => (
                 <li key={index}>
@@ -164,8 +163,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
+                { name: 'Projects', path: '/projects' },
                 { name: 'Education', path: '/education' },
-                { name: 'Showcase', path: '/showcase' },
                 { name: 'Resume', path: '/resume' }
               ].map((link, index) => (
                 <li key={index}>
