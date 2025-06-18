@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://kazi-tanvir-folio.vercel.app/',
     title: 'Kazi Tanvir Ahmed | Frontend Developer',
-    description: 'Portfolio of Kazi Tanvir Ahmed - Frontend Developer',
+    description: 'Portfolio of Kazi Tanvir Ahmed - Frontend Developer. Explore my projects, skills, and professional journey.',
     siteName: 'Kazi Tanvir Ahmed Portfolio',
     images: [
       {
