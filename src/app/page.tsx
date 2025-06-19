@@ -7,6 +7,7 @@ import { FaArrowDown, FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaChevronRi
 import { useInView } from 'react-intersection-observer';
 import Footer from '@/components/Footer';
 import { personalInfo } from '@/data/personalInfo';
+import Loading from './loading';
 
 export default function Home() {
   const { scrollY } = useScroll();
