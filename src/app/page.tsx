@@ -631,7 +631,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/5 via-sky-500/5 to-emerald-500/5 dark:from-indigo-500/10 dark:via-sky-500/10 dark:to-emerald-500/10 rounded-3xl blur-3xl"></div>
             <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-xl rounded-3xl border border-gray-200 dark:border-gray-700 p-8 md:p-12">
               <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-                <div className="text-left">
+                <div className="text-center md:text-left">
                   <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 dark:from-indigo-400 dark:via-sky-400 dark:to-emerald-400 bg-clip-text text-transparent mb-4">
                     Explore More Projects
                   </h3>

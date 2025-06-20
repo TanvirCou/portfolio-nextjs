@@ -284,7 +284,7 @@ export default function Projects() {
           )}
 
           {/* Professional Journey Section */}
-          <section className="mb-20 py-16 relative">
+          <section className="mb-20 pt-16 pb-4 relative">
             {/* Clean Background */}
             <div className="absolute inset-0 bg-gray-50/30 dark:bg-gray-900/30"></div>
             
