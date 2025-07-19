@@ -162,7 +162,7 @@ export default function Projects() {
               whileTap={{ scale: 0.98 }}
             >
               <FaExternalLinkAlt size={14} />
-              View Live
+              Live Demo
             </motion.a>
             
             {project.githubLink && (
@@ -390,7 +390,7 @@ export default function Projects() {
                                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors duration-200"
                                 whileHover={{ x: 3 }}
                               >
-                                View Project
+                                Live Demo
                                 <FaExternalLinkAlt size={12} />
                               </motion.a>
 

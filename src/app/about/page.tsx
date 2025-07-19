@@ -112,7 +112,7 @@ export default function About() {
                 {[
                   { icon: <FaEnvelope />, text: personalInfo.email },
                   { icon: <FaMapMarkerAlt />, text: personalInfo.location },
-                  { icon: <FaCalendarAlt />, text: "Available for new projects" }
+                  { icon: <FaCalendarAlt />, text: "Open to internship or junior frontend developer roles" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                     <span className="text-indigo-600 dark:text-indigo-400">{item.icon}</span>

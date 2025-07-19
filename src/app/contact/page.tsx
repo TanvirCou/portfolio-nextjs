@@ -10,12 +10,12 @@ import { personalInfo } from '@/data/personalInfo';
 
 // EmailJS configuration
 // These are the updated fields with fixed template structure
-const EMAILJS_SERVICE_ID = 'service_dpf6f2s';
-const EMAILJS_TEMPLATE_ID = 'template_4ocgs2u';
-const EMAILJS_PUBLIC_KEY = 'TEW2m3pnFBIFTnFwF';
+const EMAILJS_SERVICE_ID = 'service_efcvpzk';
+const EMAILJS_TEMPLATE_ID = 'template_dvu298i';
+const EMAILJS_PUBLIC_KEY = 'E0bq85UHkUhLeaMtP';
 
 // Auto-reply configuration
-const EMAILJS_AUTOREPLY_TEMPLATE_ID = 'template_ksy7546';
+const EMAILJS_AUTOREPLY_TEMPLATE_ID = 'template_hs5egwm';
 
 // Initialize EmailJS outside of component
 try {

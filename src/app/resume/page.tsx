@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaDownload, FaEye, FaGraduationCap, FaCode, FaTools, FaServer, FaSchool, FaCalendarAlt, FaBookOpen, FaAward, FaCertificate, FaBriefcase, FaMapMarkerAlt, FaBuilding, FaCheck, FaExpandAlt, FaTimesCircle, FaSpinner, FaExclamationTriangle, FaBook, FaLaptopCode } from 'react-icons/fa';
+import { FaDownload, FaEye, FaGraduationCap, FaCode, FaTools, FaServer, FaBookOpen, FaBriefcase, FaMapMarkerAlt, FaExpandAlt, FaTimesCircle, FaSpinner, FaExclamationTriangle, FaBook, FaLaptopCode, FaEnvelope } from 'react-icons/fa';
 import Footer from '@/components/Footer';
 import { personalInfo } from '@/data/personalInfo';
 import { education } from '@/data/education';
@@ -251,7 +251,7 @@ export default function Resume() {
                       <span>{personalInfo.location}</span>
                     </div>
                     <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
-                      <FaCalendarAlt />
+                      <FaEnvelope />
                       <span>{personalInfo.email}</span>
                     </div>
                   </div>

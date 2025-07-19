@@ -600,7 +600,7 @@ export default function Home() {
                       whileTap={{ scale: 0.98 }}
                     >
                       <FaExternalLinkAlt size={14} />
-                      View Project
+                      Live Demo
                     </motion.a>
                     
                     <motion.a

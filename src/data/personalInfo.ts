@@ -19,7 +19,7 @@ interface PersonalInfo {
 export const personalInfo: PersonalInfo = {
   name: "Kazi Tanvir Ahmed",
   title: "Frontend Developer",
-  email: "ahmed.tnvr999@gmail.com",
+  email: "kazi.tanvir.cou@gmail.com",
   location: "Bangladesh",
   about:
     "Hi, I’m Tanvir — a frontend developer specializing in building modern, responsive web applications using Next.js and React.js. I’m passionate about crafting clean, efficient, and user-friendly interfaces that deliver great user experiences.",
