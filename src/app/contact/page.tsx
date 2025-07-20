@@ -181,28 +181,28 @@ ${personalInfo.name}`
           console.error('Auto-reply failed with status:', errorDetails.status);
           console.error('Error message:', errorDetails.errorMessage);
           
-          // Try an alternative approach if the first one failed
-          try {
-            console.log('Trying alternative approach for auto-reply...');
-            // Create a simple template with just the required fields
-            const simpleParams = {
-              to: formData.reply_to,
-              from_name: personalInfo.name,
-              to_name: formData.from_name,
-              message: `Thank you for contacting me! I'll get back to you soon.`
-            };
+          // // Try an alternative approach if the first one failed
+          // try {
+          //   console.log('Trying alternative approach for auto-reply...');
+          //   // Create a simple template with just the required fields
+          //   const simpleParams = {
+          //     to: formData.reply_to,
+          //     from_name: personalInfo.name,
+          //     to_name: formData.from_name,
+          //     message: `Thank you for contacting me! I'll get back to you soon.`
+          //   };
             
-            const result = await emailjs.send(
-              EMAILJS_SERVICE_ID,
-              EMAILJS_AUTOREPLY_TEMPLATE_ID,
-              simpleParams,
-              EMAILJS_PUBLIC_KEY
-            );
+          //   const result = await emailjs.send(
+          //     EMAILJS_SERVICE_ID,
+          //     EMAILJS_AUTOREPLY_TEMPLATE_ID,
+          //     simpleParams,
+          //     EMAILJS_PUBLIC_KEY
+          //   );
             
-            console.log('Alternative auto-reply approach succeeded:', result);
-          } catch (altError) {
-            console.error('Alternative auto-reply also failed:', altError);
-          }
+          //   console.log('Alternative auto-reply approach succeeded:', result);
+          // } catch (altError) {
+          //   console.error('Alternative auto-reply also failed:', altError);
+          // }
         }
       }
 
