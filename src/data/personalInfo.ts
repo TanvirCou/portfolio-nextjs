@@ -18,16 +18,18 @@ interface PersonalInfo {
 
 export const personalInfo: PersonalInfo = {
   name: "Kazi Tanvir Ahmed",
-  title: "Frontend Developer",
+  title: "Frontend Web Developer",
   email: "kazi.tanvir.cou@gmail.com",
-  location: "Bangladesh",
+  location: "Dhaka, Bangladesh",
   about:
-    "Hi, I’m Tanvir — a frontend developer specializing in building modern, responsive web applications using Next.js and React.js. I’m passionate about crafting clean, efficient, and user-friendly interfaces that deliver great user experiences.",
+    "Frontend Web Developer specializing in Next.js, React, and TypeScript. I build scalable, high-performance web applications with clean architecture and seamless user experiences.",
   detailsAboutMe:
-    "I'm a frontend developer passionate about building modern, responsive web applications using Next.js and React.js. I focus on writing clean, efficient code and designing user-friendly interfaces that deliver seamless experiences. In addition to frontend development, I’m also exploring cloud engineering and DevOps to continuously expand my skills and stay updated with the latest technologies.",
+    "I develop modern, production-ready applications with a strong focus on performance, maintainability, and secure authentication. Experienced in REST API integration, CI/CD automation, and deploying scalable apps using Vercel and modern DevOps practices.",
   details: [
-    "🌱 Focused on Next.js, React.js, TypeScript, Tailwind CSS, Git and DevOps practices.",
-    "✍️ Love building projects, documenting learning, and teaching through content.",
+    "⚡ Next.js, React, TypeScript, Tailwind CSS",
+    "🔐 Secure auth & role-based systems",
+    "🔄 CI/CD with GitHub Actions",
+    "💳 Stripe & REST API integration",
   ],
   socialLinks: [
     { name: "LinkedIn", url: "https://www.linkedin.com/in/tnvr-kazi/" },

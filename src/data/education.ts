@@ -8,6 +8,14 @@ interface Education {
 
 export const education: Education[] = [
   {
+    degree: "M.Sc. Engineering",
+    institution: "Comilla University",
+    focus: "Information & Communication Technology",
+    year: "2025–Present",
+    description:
+      "Currently pursuing M.Sc Engineering in Information & Communication Technology from Comilla University.",
+  },
+  {
     degree: "B.Sc Engineering",
     institution: "Comilla University",
     focus: "Information & Communication Technology",
